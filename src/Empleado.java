@@ -12,11 +12,8 @@ public abstract class Empleado
         this.numero = numero;
     }
 
-    public double pagoComputado()
-    {
-        System.out.println("Dentro del pago computado al empleado");
-        return 0.0;
-    }
+    public abstract double pagoComputado();
+
 
     public void chequeCorreo()
     {
